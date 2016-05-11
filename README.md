@@ -86,6 +86,7 @@ else
 iptables -F
 # Allows incoming connections from anywhere outside
 iptables -P INPUT ACCEPT
+fi
 ```
 But this doesn't prevent anyone from connecting to the drone's WiFi, the drone will only drop the packets if the MAC address is not the one it is paired with (and if the accessed service is not icmp, ftp or nfs). So of course if we would use the same script as before, that won't work, since the drone would drop our packets. But we can simply spoof the source MAC address too:
 ```python
