@@ -1,6 +1,7 @@
 # Let's hack a drone!
 
 This is the write-up of my research presented at the Ethical Hacking Conference Budapest in May 2016.
+![Presenting](pics/IMG_6254.jpg?raw=true "")
 
 ## Getting to know the drone
 
